@@ -63,12 +63,12 @@
                 <div class="header__menu--content">
                     <ul class="header__navigation">
                         <li class="header__item"><a href="#" class="header__link">Home</a></li>
-                        <li class="header__item"><a href="#" class="header__link">Features</a></li>
-                        <li class="header__item"><a href="#" class="header__link">Porfolio</a></li>
-                        <li class="header__item"><a href="#" class="header__link">Resume</a>
+                        <li class="header__item"><a href="#features" class="header__link">Features</a></li>
+                        <li class="header__item"><a href="#portfolio" class="header__link">Portfolio</a></li>
+                        <li class="header__item"><a href="#resume" class="header__link">Resume</a>
                         </li>
                         <li class="header__item"><a href="#" class="header__link">Blog</a></li>
-                        <li class="header__item"><a href="#" class="header__link">Contact</a>
+                        <li class="header__item"><a href="#contact" class="header__link">Contact</a>
                         </li>
                     </ul>
                     <div class="header__bottom">
@@ -110,7 +110,7 @@
             </div>
         </div>
     </section>
-    <section class="portfolio">
+    <section id="features" class="portfolio">
         <div class="container">
             <div class="intro-intro">
                 <img src="./images/line.png" alt="" class="line animate__animated animate__fadeInLeft">
@@ -168,12 +168,12 @@
             <div class="poryfolio__load">Load More</div>
         </div>
     </section>
-    <section class="services">
+    <section id="portfolio" class="services">
         <div class="container">
             <section class="intro">
                 <h4 class="intro-title wow animate__animated animate__fadeInUp">
                     MY PORTFOLIO</h4>
-                <p class="intro-desc wow animate__animated animate__fadeInUp">Visit My Porfolio And Keep Your
+                <p class="intro-desc wow animate__animated animate__fadeInUp">Visit My Portfolio And Share Your
                     <span>Feedback</span>.
                 </p>
             </section>
@@ -223,7 +223,7 @@
                 <div class="services__text">
                     <div class="services__top">
                         <span class="services__num"></span>
-                        <h2 class="services__heading">AirBnB</h2>
+                        <h2 class="services__heading">Airbnb</h2>
                     </div>
                     <div class="services__bottom">
                         <i class="fa fa-arrow-right"></i>
@@ -257,6 +257,19 @@
                     </div>
                 </div>
             </a>
+            <a href="https://minnielam90-project-corpvision.vercel.app/" class="services__item services__item-5 wow animate__animated animate__fadeInUp">
+                <img src="./images/corp vision.jpg" alt="" class="services__img">
+                <div class="services__text">
+                    <div class="services__top">
+                        <span class="services__num"></span>
+                        <h2 class="services__heading">Corp Vision</h2>
+                    </div>
+                    <div class="services__bottom">
+                        <i class="fa fa-arrow-right"></i>
+                        <i class="fa fa-angle-right"></i>
+                    </div>
+                </div>
+            </a>
             <a href="https://minnielam90-react-moviebooking.vercel.app/" class="services__item services__item-6 wow animate__animated animate__fadeInUp">
                 <img src="./images/seatselection.jpg" alt="" class="services__img">
                 <div class="services__text">
@@ -273,18 +286,24 @@
             
         </div>
     </section>
-    <section class="customer">
+    <section id="resume" class="customer">
         <div class="container">
-            <div class="intro">
-                <h4 class="intro-title wow animate__animated animate__fadeInUp">
-                    RESUME</h4>
-                <p class="intro-desc wow animate__animated animate__fadeInUp">I work with organisations to craft
-                    <span>immersive</span> customer experiences.
-                </p>
-                <p class="intro-content wow animate__animated animate__fadeInUp">Driven by a passion for innovation and armed with a diverse background spanning entrepreneurial ventures, international hospitality management, and thriving businesses in Vietnam, I am now embarking on an exciting new chapter in Scotland.<br>
-                    With a proven track record of success across multiple industries including hospitality, retail, international trade, and the health and fitness sector, I bring a wealth of adaptable skills and a keen eye for opportunity to every endeavor. Recently completing an intensive full-stack web development course, I am poised to leverage my entrepreneurial spirit and newfound technical expertise in the dynamic realm of software engineering. My objective is to seamlessly blend my interest for innovation with cutting-edge technology, working remotely or in a hybrid position. Driven by a commitment to lifelong learning and staying at the forefront of emerging technologies, I am primed to make a meaningful impact and deliver top-tier results in the software engineering landscape.
-                    </p>
+         
+            <div class="intro intro-customer">
+                <div class="intro-customer-container">
+                    <div class="intro-customer-content">
+                        <h4 class="intro-title wow animate__animated animate__fadeInUp">RESUME</h4>
+
+                        <p class="intro-desc wow animate__animated animate__fadeInUp">I work with organisations to craft <span>immersive</span> customer experiences.</p>
+                        <p class="intro-content wow animate__animated animate__fadeInUp">Driven by a passion for innovation and armed with a diverse background spanning entrepreneurial ventures, international hospitality management, and thriving businesses in Vietnam, I am now embarking on an exciting new chapter in Scotland.<br> With a proven track record of success across multiple industries including hospitality, retail, international trade, and the health and fitness sector, I bring a wealth of adaptable skills and a keen eye for opportunity to every endeavor. Recently completing an intensive full-stack web development course, I am poised to leverage my entrepreneurial spirit and newfound technical expertise in the dynamic realm of software engineering. My objective is to seamlessly blend my interest for innovation with cutting-edge technology, working remotely or in a hybrid position. Driven by a commitment to lifelong learning and staying at the forefront of emerging technologies, I am primed to make a meaningful impact and deliver top-tier results in the software engineering landscape.</p>
+                    </div>
+                    <div class="image-container wow animate__animated animate__fadeInUp">
+                        <img src="./images/flower.jpg">
+                    </div>
+                </div>
+                
             </div>
+            
             <div class="view wow animate__animated animate__fadeInLeft">
                 <a href="#">Learn More</a>
                 <div class="arrow">
@@ -609,10 +628,12 @@
         <div class="subscribe__bottom">
             <div class="container subscribe__share">
                 <div class="subscribe__icon">
-                    <a href="#" class="subscribe__facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.facebook.com/minni3minni3/" class="subscribe__facebook"><i class="fab fa-facebook-f"></i></a>
                     <a href="#" class="subscribe__twitter"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="subscribe__instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/minnie.lam90/" class="subscribe__instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/minnie-lam-29707998" class="subscribe__linkedin"><i class="fab fa-linkedin-in"></i></a>
                     <a href="#" class="subscribe__youtube"><i class="fab fa-youtube"></i></a>
+                    
                 </div>
                 <a href="#" class="subscribe__sub">Subscribe Today</a>
             </div>
@@ -632,8 +653,7 @@
                         
                     </div>
                     <div class="footer__item">
-                        <p class="footer__desc">“Empowering businesses with captivating web solutions, merging innovation with user-centric design from concept to launch.
-                            <br><br>Committed to pushing boundaries and delivering excellence, I strive to create seamless digital experiences that drive success and delight clients.”</p>
+                        <p class="footer__desc">“Empowering businesses with captivating web solutions, merging innovation with user-centric design from concept to launch. Committed to pushing boundaries and delivering excellence, I strive to create seamless digital experiences that drive success and delight clients.”</p>
                        
                     </div>
                 </div>
@@ -641,7 +661,7 @@
             <div class="footer__list">
                 <div class="footer__col">
                     <h3 class="footer__title">Address</h3>
-                    <ul class="footer__menu">
+                    <ul id="contact" class="footer__menu">
                         <li class="footer__item address">Ardchoille<br>
                             Muiryden<br>
                             Fortrose<br>
