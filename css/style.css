@@ -768,6 +768,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   opacity: 0;
+
 }
 .team__text p {
   font-size: 14px;
@@ -1093,7 +1094,7 @@ body {
 }
 .footer__item.address {
   font-size: 13px;
-  max-width: 160px;
+  max-width: 170px;
   line-height: 1.6;
   color: rgba(255, 255, 255, 0.8);
 }
