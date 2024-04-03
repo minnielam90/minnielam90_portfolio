@@ -47,6 +47,7 @@ body {
   word-spacing: 0.001em;
   line-height: 1.6;
   margin-bottom: 35px;
+  text-align: justify;
 }
 
 
@@ -126,12 +127,15 @@ body {
   font-size: 14px;
   line-height: 1;
 }
+.header__navbar span:hover{
+  color: #ee9982;
+}
 .header__navbar:hover .header__bar span:nth-child(2) {
   width: 33px;
 }
 .header__navbar.hide .header__active,
 .header__navbar.hide .header__bar span {
-  transition-delay: 0.5s;
+  transition-delay: 0.2s;
 }
 .header__bar {
   display: flex;
@@ -375,6 +379,8 @@ body {
 .banner__desc {
   font-size: 18px;
   margin: 70px 0 70px;
+  word-spacing: 0.001em;
+  text-align: justify;
 }
 .banner__view {
   font-size: 12px;
@@ -404,12 +410,13 @@ body {
   height: 546px;
 }
 .banner__iphone-2 {
-  width: 334px;
-  height: 487px;
+  width: 50%;
+  /* height: 487px; */
   position: absolute;
   top:25%;
   left: 50%;
   transform: translate(-50%);
+  border-radius: 10%;
 }
 
 /* PORTFOLIO */
@@ -484,6 +491,7 @@ body {
   /* left: 40px; */
   bottom: 35px;
   color: white;
+  
   text-align: center;
   margin: 0 auto;
   left: 0;
@@ -668,6 +676,9 @@ body {
 .customer {
   margin-bottom: 140px;
 }
+.customer .intro-customer {
+  max-width: 100%;
+}
 .customer__content {
   margin-top: 120px;
   display: grid;
@@ -700,9 +711,21 @@ body {
   grid-column: 1 /3;
   grid-row: 1 /3;
 }
-
-
-
+.intro-customer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.intro-customer-content {
+  width: 50%;
+}
+.image-container {
+  align-items: baseline;
+  width: 45%;
+}
+.image-container img {
+  max-width: 100%;
+}
 
 
 /* TEAM */
@@ -951,13 +974,19 @@ body {
   color: white;
 }
 .subscribe__instagram:hover {
-  background-color: #3f729a;
+  background-color: #D6426F;
+  /* background-color: #F79148; */
   color: white;
 }
 .subscribe__youtube:hover {
   background-color: #e52d28;
   color: white;
 }
+.subscribe__linkedin:hover {
+  background-color: #0077B5;
+  color: white;
+}
+
 .subscribe__icon a:last-of-type {
   border-right: 1px solid #ebebeb;
 }
@@ -1000,7 +1029,9 @@ body {
 .footer__desc {
   font-size: 26px;
   margin-bottom: 28px;
-  font-weight: 500;
+  font-weight: 400;
+  word-spacing: 0.001em;
+  text-align: justify;
 }
 .footer__author {
   position: relative;
