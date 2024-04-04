@@ -76,7 +76,7 @@ body {
   z-index: 16;
   display: flex;
   align-items: center;
-  gap: 60px;
+  gap: 30px;
 }
 .header__logo .header__img {
   width: 74px;
@@ -270,7 +270,7 @@ body {
   visibility: visible;
 }
 .header__navigation {
-  padding-top: 100px;
+  padding-top: 120px;
   padding-bottom: 25px;
   list-style-type: none;
 }
@@ -370,6 +370,10 @@ body {
   .header__menu.show {
     height: 550px;
   }
+  .header__menu--content {
+    margin-left: 20px;
+  }
+  
 }
 
 
